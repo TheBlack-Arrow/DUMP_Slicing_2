@@ -1,0 +1,142 @@
+.top-container {
+    height: 40%;
+    background-color: white;
+    padding: 40px 40px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.top-container-top-info {
+    height: 40px;
+    text-align: center;
+}
+
+.sandwich {
+    width: 30px;
+    height: 18px;
+    background-image: url('http://i1135.photobucket.com/albums/m622/TheDarkDragon1996/drugii_menu_sandwich.png');
+    background-repeat: no-repeat;
+    float: left;
+    margin: 10px 0;
+}
+
+.menu {
+    float: left;
+    padding: 10px 10px;
+}
+
+.years {
+    word-spacing: 5px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.years-2014 {
+    display: inline;
+}
+.years-2013 {
+    display: inline;
+    color: rgb(102, 102, 102);
+}
+.years-2012 {
+    display: inline;
+    color: rgb(102, 102, 102);
+}
+
+.make-order {
+	background-color:#ffffff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:3px solid #f02222;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:10px 26px;
+	text-decoration:none;
+
+    float: right;
+}
+.make-order:hover {
+	background-color:#f7f7f7;
+}
+.make-order:active {
+	position:relative;
+	top:1px;
+}
+
+.top-container-headline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42;
+    font-weight: 700;
+    padding: 160px 0 0 0;
+    text-align: center;
+}
+
+.top-container-subheadline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    text-align: center;
+    padding: 5px 0 152px 0;
+    color: rgb(102, 102, 102);
+}
+
+.bottom-container {
+    height: 50%;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 90px 90px;
+}
+
+.bottom-container-date {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(155, 155, 155);
+    padding-bottom: 15px;
+}
+
+.bottom-container-headline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+    padding-bottom: 45px;
+}
+
+.bottom-container-image {
+    height: 220px;
+    width: 700px;
+    background-image: url('http://i1135.photobucket.com/albums/m622/TheDarkDragon1996/Cr-GSx1F_wI-1120x400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: inline-block;
+}
+
+.bottom-container-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    color: rgb(102, 102, 102);
+    padding-top: 45px;
+    line-height: 160%;
+}
+
+.bottom-container-3dots {
+    width: 42px;
+    height: 8px;
+    background-image: url('http://i1135.photobucket.com/albums/m622/TheDarkDragon1996/drugi_3dots.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+}
