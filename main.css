@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 100px;
+}
+.con{
+    position: relative;
+    width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 25px solid;
+}
+.border1{
+    background-image: url("./domaci/domaci/prva.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+}
+.border2{
+    background-image: url("./domaci/domaci/druga.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+}
+.border3{
+    background-image: url("./domaci/domaci/treca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+}
+.con-inner{
+    border-top: 30px solid transparent;
+    margin-left: 25px;
+    border-bottom: 25px solid transparent;
+}
+.buttons{
+    border-top: 30px solid transparent;
+    margin-left: -8px;
+}
+button{
+    padding: 8px;
+    border-radius: 50px;
+    background: transparent;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    border: none;
+    overflow: hidden;
+    margin-left: 8px;
+}
+.title{
+    border-bottom: 15px solid transparent;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+p{
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+/*Pokusaj blura*/
+.blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./domaci/domaci/prva.jpg");
+    filter: blur(1px);z-index: 3;
+}
+.blur2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./domaci/domaci/druga.jpg");
+    filter: blur(3px);z-index: 3;
+}
+.blur3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./domaci/domaci/treca.jpg");
+    filter: blur(3px);z-index: 3;
+}
+.text{
+    z-index: 4;
+    position: relative;
+}
